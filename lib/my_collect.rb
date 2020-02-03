@@ -1,0 +1,2 @@
+ my_collect(array)
+  
