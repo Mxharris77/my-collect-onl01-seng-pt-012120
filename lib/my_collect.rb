@@ -2,11 +2,11 @@ collection = ['ruby', 'javascript', 'python', 'objective-c']
 
 def my_collect(array)
   i = 0
-  lang_collection = []
+  variable_collection = []
   while i < array.length
-    lang_collection << yield(array[i])
+    variable_collection << yield(array[i])
     i += 1
   end
-  lang_collection
+  variable_collection
 end
 
