@@ -1,7 +1,5 @@
- array = []
- 
- my_collect(array) do |x|
-   counter += 1 
+ def my_collection(array) 
+  
  end 
  
   
